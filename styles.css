@@ -103,7 +103,7 @@ body {
 }
 
 /* Dành cho điện thoại */
-@media all and (max-width: 480px) {
+@media all and (max-width: 320px) {
 
 
 }
