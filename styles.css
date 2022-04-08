@@ -102,15 +102,16 @@ body {
   font-size: 24px;
 }
 
-/* Dành cho điện thoại */
-@media all and (max-width: 320px) {
 
-
+@media (min-width: 400px) {
+  .container {
+    width: 320px;
+  }
 }
 
-
-/* Dành cho máy tính bảng */
-@media all and (max-width: 1024px) {
-
-
+/* large screen */
+@media (min-width: 800px) {
+  .container {
+    width: 400px;
+  }
 }
