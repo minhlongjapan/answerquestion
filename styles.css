@@ -99,6 +99,9 @@ body {
 }
 
 
+#result > p {
+  font-size: 24px;
+}
 
 @media (min-width: 400px) {
   .container {
