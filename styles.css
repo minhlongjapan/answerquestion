@@ -102,11 +102,15 @@ body {
   font-size: 24px;
 }
 
-@media (min-width: 400px) {
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+
 
 }
 
-/* large screen */
-@media (min-width: 800px) {
+
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {
+
 
 }
